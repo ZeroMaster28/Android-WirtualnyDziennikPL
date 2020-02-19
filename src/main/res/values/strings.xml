@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- GENERAL-->
+    <string name="app_name">E-dziennik</string>
+    <string name="nothing">NOTHING</string>
+    <string name="select">Wybierz</string>
+    <string name="empty"> </string>
+    <string name="assign">Przypisz</string>
+    <string name="add">Dodaj</string>
+
+    <!--LOGGING-->
+    <string name="bad_login">Bad login</string>
+    <string name="default_input"> </string>
+
+    <!--STUDENT-->
+    <string name="student_my_grades">Moje oceny</string>
+    <string name="button_show_grades">Wyświetl oceny</string>
+
+    <!--TEACHER-->
+    <string name="text_subject">Przedmiot:</string>
+    <string name="text_student">Uczeń:</string>
+    <string name="text_grade">Ocena:</string>
+    <string name="text_assign_student">Dodaj ucznia</string>
+    <string name="text_add_grade">Dodaj ocenę</string>
+
+    <!--ADMIN-->
+    <string name="create_account">Utwórz/usuń konto</string>
+    <string name="name">Imię</string>
+    <string name="second_name">Nazwisko</string>
+    <string name="role">Rola:</string>
+    <string name="code">Kod:</string>
+    <string name="button_create">Stwórz</string>
+    <string name="remove_account">Usuń konto</string>
+    <string name="button_remove">Usuń</string>
+    <string name="db_info">DB INFO</string>
+    <string name="subject_name">Nazwa</string>
+    <string name="create_subject">Zarządzaj przedmiotami</string>
+    <string name="assign_teacher">Przypisz</string>
+    <string name="button_select_teacher">Nauczyciel</string>
+    <string name="teacher_code">Kod nauczyciela</string>
+    <string name="button_find_subject">Wyszukaj</string>
+
+</resources>

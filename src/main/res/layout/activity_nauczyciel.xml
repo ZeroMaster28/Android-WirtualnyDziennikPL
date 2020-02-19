@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NauczycielActivity">
+
+    <TextView
+        android:id="@+id/teacher_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nothing"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="241dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/text_assign_student"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_headline" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="241dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/text_add_grade"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_text_subject" />
+
+    <TextView
+        android:id="@+id/teacher_text_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/text_subject"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_text_student" />
+
+    <TextView
+        android:id="@+id/teacher_text_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_student"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/teacher_text_subject_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_subject"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/teacher_text_student2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_student"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_output_subject_grade" />
+
+    <TextView
+        android:id="@+id/teacher_text_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_grade"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_text_student2" />
+
+    <TextView
+        android:id="@+id/teacher_output_subject_to_assign"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/empty"
+        app:layout_constraintStart_toEndOf="@+id/teacher_text_subject"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_output_student_to_assign" />
+
+    <TextView
+        android:id="@+id/teacher_output_student_to_assign"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/empty"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/teacher_text_student"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/teacher_output_subject_grade"
+        android:layout_width="286dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/empty"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_text_subject_2" />
+
+    <TextView
+        android:id="@+id/teacher_output_student_grade"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/empty"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/teacher_text_student2"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_output_subject_grade" />
+
+    <TextView
+        android:id="@+id/teacher_output_grade_value"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/empty"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/teacher_text_grade"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_output_student_grade" />
+
+    <Button
+        android:id="@+id/teacher_button_addstudent_select_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_button_addstudent_select_student" />
+
+    <Button
+        android:id="@+id/teacher_button_addstudent_select_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/teacher_button_addgrade_select_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toEndOf="@+id/teacher_text_subject_2"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/teacher_button_addgrade_select_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_output_subject_grade" />
+
+    <Button
+        android:id="@+id/teacher_button_addgrade_select_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_button_addgrade_select_student" />
+
+    <Button
+        android:id="@+id/teacher_button_assign_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/assign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_output_grade_value" />
+
+    <Button
+        android:id="@+id/teacher_button_assign_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_button_addstudent_select_subject" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

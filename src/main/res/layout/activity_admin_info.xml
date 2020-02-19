@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/admin_info_userstable_legends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nothing"
+        android:textColor="#FF0000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/admin_info_userstable_rows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nothing" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/admin_info_subjectstable_legends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nothing"
+        android:textColor="#FF0000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="286dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/admin_info_subjectstable_rows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nothing" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
