@@ -4,7 +4,7 @@ Projekt na zaliczenie. Aplikacja przedstawia demonstracyjną wersję wirtualnego
 na androida, korzystającą z lokalnie stworzonej bazy danych.
 
 Przez pierwsze pięć sekund po włączeniu aplikacji, ukazuje się ekran powitania.
-![img1](https://github.com/ZeroMaster28/Android-WirtualnyDziennikPL/blob/master/Images/1.png width="540" height="960")
+![img1](https://github.com/ZeroMaster28/Android-WirtualnyDziennikPL/blob/master/Images/1.png =540x960)
 Potem użytkownik loguje się na swoje konto za pomocą unikalnie wygenerowanego klucza z Base64.
 
 Istnieją trzy typy kont: admin, nauczyciel, uczeń.
